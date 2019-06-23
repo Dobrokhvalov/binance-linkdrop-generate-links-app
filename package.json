@@ -1,0 +1,22 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate-links": "babel-node generate-links.js"
+  },
+  "author": "Mikhail Dobrokhvalov <m.dobrokhvalov@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/register": "^7.4.4"
+  },
+  "dependencies": {
+    "binance-chain-linkdrop": "git+ssh://git@github.com:amiromayer/binance-chain-linkdrop.git"
+  }
+}
